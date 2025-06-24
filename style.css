@@ -191,3 +191,20 @@ blockquote span {
         font-size: 16px;
     }
 }
+
+.botao-cadastro {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #4CAF50; /* Verde da reciclagem */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.botao-cadastro:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
