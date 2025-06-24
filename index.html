@@ -5,70 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promoção Humana - Coleta Seletiva</title>
     <link rel="stylesheet" href="style.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
     <script src="script.js" defer></script>
 </head>
 <body>
 
     <!-- Navbar -->
     <nav>
-        <ul>
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#sobre">Sobre Nós</a></li>
-            <li><a href="#missao">Missão</a></li>
-            <li><a href="#galeria">Galeria de Fotos</a></li>
-            <li><a href="#cadastro">Cadastro</a></li>
-        </ul>
-    </nav>
+    <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#missao">Missão</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#cadastro">Cadastro</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+    </ul>
+</nav>
 
     <!-- Banner Inicial -->
-    <section id="inicio" class="banner">
-        <h1>Promoção Humana - Santo Antônio da Platina</h1>
-        <p>Junte-se ao movimento de coleta seletiva e faça a diferença!</p>
+    <section id="inicio" class="banner" data-aos="fade-down">
+         <img src="img/logo.png" alt="Logo Promoção Humana" class="logo">
+        <h1>Promoção Humana - Coleta Seletiva</h1>
+        <p>Por uma Santo Antônio da Platina mais limpa e sustentável!</p>
     </section>
 
     <!-- Sobre Nós -->
-    <section id="sobre">
-        <h2>Sobre Nós</h2>
-        <p>A Promoção Humana é uma ONG que atua na coleta seletiva e reciclagem, promovendo sustentabilidade e inclusão social em Santo Antônio da Platina - PR.</p>
+    <section id="sobre" data-aos="fade-right">
+        <h2>Quem Somos</h2>
+        <p>A Promoção Humana é uma ONG que atua com responsabilidade social e ambiental, realizando a coleta seletiva e a reciclagem de resíduos em Santo Antônio da Platina - PR.</p>
+        <p>Com uma equipe de aproximadamente 28 pessoas e vários voluntários, garantimos que toneladas de materiais tenham o destino correto, gerando renda, trabalho e preservando o meio ambiente.</p>
     </section>
 
     <!-- Missão -->
-    <section id="missao">
+    <section id="missao" data-aos="fade-left">
         <h2>Nossa Missão</h2>
-        <p>Conscientizar a população sobre a importância da separação do lixo e garantir que os resíduos recicláveis tenham o destino correto, gerando renda para diversas famílias.</p>
+        <p>Conscientizar a população sobre a importância da separação correta do lixo reciclável, promover a inclusão social e manter a cidade mais limpa e sustentável para todos.</p>
     </section>
 
-    <!-- Galeria -->
-    <section id="galeria">
+    <!-- depoimentos -->
+    <section id="depoimentos" data-aos="fade-up">
+    <h2>O que dizem sobre a Promoção Humana</h2>
+    <div class="depoimentos-container">
+        <blockquote>
+            "Desde que comecei a separar meu lixo, percebi a importância de cada atitude. A Promoção Humana faz um trabalho incrível!"  
+            <span>– Maria Silva, moradora</span>
+        </blockquote>
+
+        <blockquote>
+            "Além de ajudar o meio ambiente, a coleta seletiva gera renda e oportunidade para muitas famílias da nossa cidade."  
+            <span>– João Oliveira, comerciante</span>
+        </blockquote>
+
+        <blockquote>
+            "Fiquei feliz em ver meus filhos aprendendo sobre reciclagem nas escolas com o apoio da Promoção Humana!"  
+            <span>– Carla Mendes, mãe e professora</span>
+        </blockquote>
+    </div>
+</section>
+
+    <!-- Galeria de Fotos -->
+    <section id="galeria" data-aos="fade-up">
         <h2>Galeria de Fotos</h2>
         <div class="gallery">
-            <img src="img/foto1.jpg" alt="Trabalho da Promoção Humana">
-            <img src="img/foto2.jpg" alt="Separação dos Materiais">
-            <img src="img/foto3.jpg" alt="Equipe da Promoção Humana">
-            <!-- Adicione mais fotos depois -->
+            <img src="img/foto1.jpg" alt="Coleta de materiais">
+            <img src="img/foto2.jpg" alt="Equipe de trabalho">
+            <img src="img/foto3.jpg" alt="Triagem dos recicláveis">
+            <!-- Você pode adicionar mais fotos -->
         </div>
     </section>
 
     <!-- Cadastro -->
-    <section id="cadastro">
-        <h2>Cadastre-se para participar da coleta seletiva</h2>
+    <section id="cadastro" data-aos="zoom-in">
+        <h2>Cadastre-se para Participar da Coleta Seletiva</h2>
+        <p>Quer que a Promoção Humana passe na sua casa recolher os recicláveis? Preencha o formulário abaixo:</p>
         <form>
-            <label for="nome">Nome:</label>
+            <label for="nome">Nome Completo:</label>
             <input type="text" id="nome" name="nome" required>
 
-            <label for="endereco">Endereço:</label>
+            <label for="endereco">Endereço Completo:</label>
             <input type="text" id="endereco" name="endereco" required>
 
-            <label for="email">Email:</label>
+            <label for="email">E-mail:</label>
             <input type="email" id="email" name="email">
+
+            <label for="telefone">Telefone / WhatsApp:</label>
+            <input type="tel" id="telefone" name="telefone">
 
             <button type="submit">Enviar Cadastro</button>
         </form>
     </section>
+
+    <!-- mapas -->
+    <section id="localizacao" data-aos="fade-left">
+    <h2>Onde Estamos</h2>
+    <p>Rua Rio Branco, 1004 - Centro - Santo Antônio da Platina - PR - CEP 86430-000</p>
+    <div class="mapa">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.644422308981!2d-50.08393638503496!3d-23.297384734488328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c0cb0928a042e7%3A0xa6a797b27343f229!2sR.%20Rio%20Branco%2C%201004%20-%20Centro%2C%20Santo%20Ant%C3%B4nio%20da%20Platina%20-%20PR%2C%2086430-000!5e0!3m2!1spt-BR!2sbr!4v1719188419041!5m2!1spt-BR!2sbr"
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+</section>
 
     <!-- Rodapé -->
     <footer>
         <p>Desenvolvido pela equipe CCM Moralina Eleutério</p>
     </footer>
 
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+</html>

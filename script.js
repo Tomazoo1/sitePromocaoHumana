@@ -1,5 +1,5 @@
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault();
-    alert('Obrigado por se cadastrar na coleta seletiva! Em breve entraremos em contato.');
+    alert('Cadastro enviado com sucesso! Em breve a Promoção Humana entrará em contato.');
     this.reset();
 });
