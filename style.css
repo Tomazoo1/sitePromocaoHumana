@@ -216,3 +216,9 @@ blockquote span {
   background-color: #45a049;
   transform: translateY(-2px);
 }
+
+#sobre p,
+#missao p {
+    text-align: justify;
+    line-height: 1.6;
+}
