@@ -113,6 +113,22 @@ footer {
     padding: 15px;
     margin-top: 50px;
 }
+.rodape-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rodape-container p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.logo-rodape {
+    width: 50px;  /* ajuste o tamanho conforme necessário */
+    height: auto;
+}
 
 .logo {
     max-width: 150px;
