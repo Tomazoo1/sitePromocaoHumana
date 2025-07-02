@@ -119,14 +119,18 @@ footer {
     margin-bottom: 20px;
 }
 
-.telefone{
-    max-width: 50px;
-    margin-bottom: 20px;
+.contato {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre o ícone e o texto */
+    margin-bottom: 10px;
 }
-.whatsapp{
-    max-width: 50px;
-    margin-bottom: 20px;
+
+.contato img.icone {
+    width: 24px; /* ajuste o tamanho da imagem conforme necessário */
+    height: auto;
 }
+
 .depoimentos-container {
     display: flex;
     flex-direction: column;
