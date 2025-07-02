@@ -119,6 +119,10 @@ footer {
     margin-bottom: 20px;
 }
 
+.telefone{
+    max-width: 50px;
+    margin-bottom: 20px;
+}
 .depoimentos-container {
     display: flex;
     flex-direction: column;
