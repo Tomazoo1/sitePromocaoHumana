@@ -113,22 +113,22 @@ footer {
     padding: 15px;
     margin-top: 50px;
 }
-.rodape-container {
-    display: flex;
-    justify-content: space-between;
+.rodape-centralizado {
+    display: inline-flex; /* mantém o conteúdo em linha e permite centralizar */
     align-items: center;
-    flex-wrap: wrap;
+    gap: 10px; /* espaço entre texto e logo */
 }
 
-.rodape-container p {
+.rodape-centralizado p {
     margin: 0;
     font-size: 14px;
 }
 
 .logo-rodape {
-    width: 50px;  /* ajuste o tamanho conforme necessário */
+    width: 30px; /* ou outro tamanho desejado */
     height: auto;
 }
+
 
 .logo {
     max-width: 150px;
